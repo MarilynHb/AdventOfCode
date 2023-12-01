@@ -2,7 +2,7 @@
 
 namespace AdventOfCode;
 
-public class CountCalories_Day1_2022
+public class CountCalories_Day1
 {
     string projectPath = Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName ?? throw new NullReferenceException();
     const string year = "2022";
