@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace AdventOfCode;
-public class CalibrationValues_Day1
+public class Day1_CalibrationValues
 {
     string projectPath = Directory.GetParent(Directory.GetCurrentDirectory())?.Parent?.Parent?.FullName ?? throw new NullReferenceException();
     const string year = "2023";
